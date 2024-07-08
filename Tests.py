@@ -1,19 +1,21 @@
-#Greade Score Letter  
+def computepay(hour,rate):
 
-score=input("Please Add The Score: ")
+    if hour<=40:
+        payment=hour*rate
+        return(payment)
+    
+    elif hour>40:
+       normal=40*rate
+       extra_hour=hour-40
+       over_time=extra_hour*1.5
+       extra_pay=over_time*rate
+       total_payment=normal+extra_pay
+       return(total_payment) 
+    
+h=input("please add you work hours: ")
+r=input("Please add your rate per hour: ")
 
-try:
-    score=float(score)
+h=float(h)
+r=float(r)
 
-    if score >= 0.9:
-        print("A")
-    elif score >=0.8:
-        print("B")
-    elif score >=0.7:
-        print("C")
-    elif score>=0.6:
-        print("D")
-    else:
-        print("F")
-except:
-    print("Please Add Only Numbers")
+print(f"Your total Payment is: ${computepay(h,r)}")
