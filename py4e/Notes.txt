@@ -1,0 +1,57 @@
+
+https://www.w3schools.com/python/ 
+
+
+# 10 to the power 3 (Power of = **)
+# Two Eqals (==)
+# One Equal = for assign variable
+# To Commnet Multi-Lines at once - Cmd + /
+
+#Input function is always (String) type
+
+#Functions always have parentheses 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+Object-oriented programming is a programming system based around objects, which can contain data and code that manipulates that data. 
+
+
+The four fundamental concepts in object-oriented programming include objects, classes, attributes, and methods. 
+
+
+
+An object is an instance of a class. 
+
+A class is an object's data type that bundles data and functionality together
+
+A method is a function that belongs to a class and typically performs an action or operation.
+
+Dot notation is how we access the methods and attributes that belong to an instance of a class
+
+A simpler way of thinking about the distinction between attributes and methods is to remember that attributes are characteristics of the object, while methods are actions or operations.
+
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Information in code is stored in variables - x = 5 (x is a variable) 
+
+A variable is a named container that stores values
+
+syntax is the structure of code words, symbols, placement, and punctuation.
+
+low-level programming languages are faster
+
+def is_adult(age): #Age inside the parentheses called Argument and its information such as f(x)
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Math Operation (Left to Right) 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Reading data from outsourcing is sent as (Strings) 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+input() == input function
