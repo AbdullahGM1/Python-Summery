@@ -1,2 +1,2 @@
-# py4e-summery
+# Python-Summery
 This is a refreance for me for Python 
