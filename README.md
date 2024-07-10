@@ -1,2 +1,2 @@
 # Python-Summery
-This is a refreance for me for Python 
+This is a reference for me for Python learning process
