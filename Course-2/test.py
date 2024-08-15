@@ -1,28 +1,26 @@
-# Use the file name mbox-short.txt as the file name
+fname = input("Enter file:")
+if len(fname) < 1:
+     fname = "mbox-short.txt"
+handle = open(fname)
 
-fname = input("Enter file name: \n")
-fh = open(fname)
+dic=dict()
 
-data=0
-count=0
-
-for line in fh:
-    if not line.startswith("X-DSPAM-Confidence:"):
-        continue
-
-    line=line[19:]
+for line in handle:
     line=line.strip()
-    line=float(line)
-    #print(f"\n {line}")
+    if line.startswith("From "):
+        time=line.split()
+        t=time[5]
+        #print(t)
+        t=t[0:2]
+        #print(t)
+        dic[t]=dic.get(t,0)+1
 
-    data=data+line
+tmp=list()
+for key,value in dic.items():
+    tmp.append((key,value)) ## I have to add parantheses for the tuple !!!
 
-    #print(f"\nThis is the sum: {data}\n")
-    #print(f"This is the saved data to the arrgument {data}")
-    count=count+1
+tmp=sorted(tmp)
+#print(tmp)
 
-
-
-#print(f"\n\n The Number of appearance is {count}\n\n")
-print(f"Average spam confidence: {data/count}")
-#print("\n\nDone\n\n")
+for time,count in tmp:
+    print(time,count)
